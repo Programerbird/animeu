@@ -1,0 +1,30 @@
+img{
+    width: 60px;
+    border-radius: 30px;
+   
+    
+}
+
+.main_wrapper{
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: red; */
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 120px;
+     
+}
+
+.links{
+    /* background-color: rgb(50, 255, 14); */
+    display: flex;
+    gap: 20px;
+
+    
+    
+}

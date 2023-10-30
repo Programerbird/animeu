@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Zilla+Slab:ital@1&display=swap');
+
+.App{
+ padding-top: 200px;
+  text-align: center;
+  font-family: 'Passion One', sans-serif;
+  font-family: 'Zilla Slab', serif;
+  font-size: 20px;
+}
+
+.textmain{
+  font-size: 80px;
+  color: rgb(234, 255, 1);
+}
+
+.boxes{
+  
+}
+
+.password{
+  padding-top: 30px;
+  font-size: 20px;
+  
+}
+
+.signupnow{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  color: aliceblue;
+}
+
+.signlink{
+  font-size: 20px;
+}
