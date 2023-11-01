@@ -10,7 +10,7 @@
 
 .textmain{
   font-size: 80px;
-  color: rgb(234, 255, 1);
+  color: rgb(12, 13, 1);
 }
 
 .boxes{
@@ -29,7 +29,7 @@
   text-align: center;
   align-items: center;
   gap: 10px;
-  color: aliceblue;
+  color: rgb(0, 2, 4);
 }
 
 .signlink{
