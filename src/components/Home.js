@@ -10,15 +10,16 @@ const Home = () => {
   return (
     <div className='main_wrapper' >
       <div className='main_text' >
-        <h1>ANIMEU</h1>
+       
           <a style={{color:'yellow'}} href='link'>CHAT</a>
           <a style={{color:'yellow'}} href='link'>ANIME</a>
           <a style={{color:'yellow'}} href='link'>MANGA</a>
-          <Stack direction="row" spacing={2}>
-              <Avatar alt="Remy Sharp" src={pfp} />
-           </Stack>
-          <div>
-          <Box
+          <Stack  direction="row" spacing={2}>
+              <Avatar sx={{ width: 54, height: 54 }} alt="Remy Sharp" src={pfp} />
+          </Stack>
+      </div>
+          <div className='search' >
+          <Box 
             component="form"
              sx={{
             '& > :not(style)': { m: 1, width: '30ch' },
@@ -28,12 +29,8 @@ const Home = () => {
             >
             <TextField id="outlined-basic" label="Search..." variant="outlined" />
           </Box>
-           
           </div>
-      </div>
-       
     
-     
     </div>
   )
 }
