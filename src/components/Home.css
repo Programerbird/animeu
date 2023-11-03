@@ -8,10 +8,22 @@
 .main_text{
     font-size: 15px;
     display: flex;
-    color: rgb(255, 200, 0);
+    color: rgb(0, 0, 0);
     align-items: center;
-    gap: 90px;
-    padding-left: 19px;  
+    gap: 100px;
+    padding-left: 15px;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    color: rgb(255, 255, 255);
+   text-decoration: none;
 }
 
 .avatar{
@@ -22,4 +34,11 @@
 
 
     
+}
+
+.border{
+    position:fixed;
+    top: 30px;
+    left: 30px;
+    border: 1px solid #000000;
 }

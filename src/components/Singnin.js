@@ -17,7 +17,7 @@ const Singnin = () => {
   }
   return (
     <div className='App'>
-      <h1 className='textmain' >Animeu</h1>
+      <h1 className='textmain' >Login</h1>
         <div className='boxes' >
             <Box 
               component="form"
@@ -27,7 +27,7 @@ const Singnin = () => {
               noValidate
               autoComplete="off"
             >
-              <TextField  style={{background:'yellow'}} type='email' id="filled-basic" label="Email" variant="filled" 
+              <TextField  style={{background:'white'}} type='email' id="filled-basic" label="Email" variant="filled" 
                 value={email}
                 onChange={e => setEmail(e.target.value)}
               />
@@ -41,7 +41,7 @@ const Singnin = () => {
               noValidate
               autoComplete="off"
             >
-          <TextField style={{ background: 'yellow' }} type='password' id="filled-basic" label="Password" variant="filled"
+          <TextField style={{ background: 'white' }} type='password' id="filled-basic" label="Password" variant="filled"
             value={password}
             onChange={e => setPassword(e.target.value)}
               />
@@ -54,11 +54,11 @@ const Singnin = () => {
               </Button>
             </div>
             <div className='password' >
-              <a  type='password' style={{color:"red"}} href='Password' >Forgot Password</a>
+              <a  type='password' style={{color:"white"}} href='Password' >Forgot Password or Email</a>
             </div>
             <div className='signupnow' >
               <h2 className='textsignup' >Don't Have an Account </h2>
-              <a  style={{color:"red"}} className='signlink' href='signup' >SignUp</a>
+              <a  style={{color:"white"}} className='signlink' href='signup' >SignUp</a>
             </div>
           </div>
     </div>
