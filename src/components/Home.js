@@ -22,7 +22,8 @@ const Home = () => {
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
-          
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           
           
           
