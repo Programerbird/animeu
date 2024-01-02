@@ -17,6 +17,9 @@ const Home = () => {
           <a style={{textDecoration: "none"}}  href='link'>ANIME</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
+          
           
           </div>
           <Stack  direction="row" spacing={2}>
