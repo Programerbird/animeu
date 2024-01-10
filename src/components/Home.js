@@ -20,7 +20,8 @@ const Home = () => {
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
-  
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
+          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
           </div>
           <Stack  direction="row" spacing={2}>
               <Avatar sx={{ width: 54, height: 54 }} alt="Remy Sharp" src={pfp} />
