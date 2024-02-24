@@ -5,6 +5,7 @@ import TextField from '@mui/material/TextField';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import pfp from '../Pictures/pfp.jpg'
+import Button from '@mui/material/Button';
 
 
 
@@ -13,15 +14,17 @@ const Home = () => {
     <div className='main_wrapper' >
       <div className='main_text' >
           <div className='links' >
-          <a style={{textDecoration: "none"}} href='link'>CHAT</a>
-          <a style={{textDecoration: "none"}}  href='link'>ANIME</a>
-          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
-          <a style={{textDecoration: "none"}}  href='link'>MANGA</a>
-         
-          </div>
+          <Stack direction="row" spacing={2}>
+            <Button variant="contained">Anime</Button>
+            <Button variant="contained">Manga</Button>
+            <Button variant="contained">Chat</Button>
+            <Button variant="contained">Chat</Button>
+          </Stack>
+          
           <Stack  direction="row" spacing={2}>
               <Avatar sx={{ width: 54, height: 54 }} alt="Remy Sharp" src={pfp} />
           </Stack>
+          </div>
       </div>
           <div className='search' >
           <Box 
