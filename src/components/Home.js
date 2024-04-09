@@ -19,19 +19,6 @@ const Home = () => {
             <Button variant="contained">Manga</Button>
             <Button variant="contained">Chat</Button>
             <Button variant="contained">Anime</Button>
-            <Button variant="contained">Manga</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Manga</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Manga</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Manga</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Manga</Button>
-            <Button variant="contained">Chat</Button>
-            <Button variant="contained">Manga</Button>
             <Button variant="contained">Chat</Button>
           </Stack>
           
