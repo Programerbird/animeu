@@ -55,6 +55,10 @@ const Home = () => {
             <Button variant="contained">Chat</Button>
             <Button variant="contained">Chat</Button>
             <Button variant="contained">Anime</Button>
+            <Button variant="contained">Anime</Button>
+            <Button variant="contained">Chat</Button>
+            <Button variant="contained">Chat</Button>
+            <Button variant="contained">Chat</Button>
           </Stack>
           
           <Stack  direction="row" spacing={2}>
